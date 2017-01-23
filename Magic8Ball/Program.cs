@@ -27,7 +27,7 @@ namespace Magic8Ball
                 Console.ReadLine();
                 SendQuestion(ballnames[r]);
                 Console.Read();
-                Console.Clear():
+                Console.Clear();
             }
         }
     }
