@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Magic8Ball
 {
-    public class Robot8Ball : IQuestionable
+    public class robot8Ball : IQuestionable
     {
 
         Dictionary<int, string> robotDictionary = new Dictionary<int, string>()
@@ -24,8 +24,8 @@ namespace Magic8Ball
         public void Ask()
         {
             var rng = new Random();
-            int r = rng.Next(0, 9);
-            Console.WriteLine($"{robotDictionary[r]}");
+            int q = rng.Next(1, 9);
+            Console.WriteLine($"{robotDictionary[q]}");
         }
 
       
